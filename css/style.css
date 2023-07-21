@@ -494,6 +494,35 @@ input{
     html{
         font-size: 62.5%;
     }
+    .articles{
+        width: 100%;
+        height: 240vh;
+        background-color:var(--backdrop-color);
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    }
+    .subcribe{
+        width: 80%;
+        height: 300px;
+        /* background-color: red; */
+        /* margin: 180px;
+        margin-top: 50px; */
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+   }
+   .btn{
+     /* margin: 50px; */
+    margin-left: 300px; 
+    padding: 12px 40px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
   }
 
 @media (max-width:991px){
@@ -511,7 +540,7 @@ input{
     }
     .articles{
         width: 100%;
-        height: 342vh;
+        height: 330vh;
         background-color:var(--backdrop-color);
         display: inline-block;
         align-items: center;
@@ -635,10 +664,11 @@ input{
      justify-content: center;
 }
 .btn{
-    margin: 50px;
-    margin-left: 200px;
+    /* margin: 50px;
+    margin-left: 200px; */
     padding: 12px 40px;
     display: flex; 
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -752,7 +782,7 @@ input{
         margin-top: 60px;
     
     }
-    .articles{
+    /* .articles{
         width: 100%;
         height: 400vh;
         background-color:var(--backdrop-color);
@@ -762,10 +792,10 @@ input{
         justify-content: center;
         flex-wrap: wrap;
        
-    }
+    } */
     .articles{
         width: 100%;
-        height: 432vh;
+        height: 420vh;
         background-color:var(--backdrop-color);
         display: inline-block;
         
@@ -890,11 +920,11 @@ input{
         margin: 0px;
    }
    .btn{
-     margin: 20px;
-     margin-left: 260px;
+     /* margin: 20px;
+     margin-left: 260px; */
      padding: 12px 40px;
+     display: inline-block;
      
-     flex-direction: column;
      align-items: center;
      justify-content: center;
 }
@@ -1025,7 +1055,7 @@ input{
     }
     .articles{
         width: 100%;
-        height: 443vh;
+        height: 429vh;
         background-color:var(--backdrop-color);
         display: inline-block;
         
@@ -1300,8 +1330,8 @@ input{
     }
     .articles{
         width: 100%;
-        height: 410vh;
-        background-color:var(--backdrop-color);
+        height: 100%;
+        background-color:green;
         display: inline-block;
         
         align-items: center;
